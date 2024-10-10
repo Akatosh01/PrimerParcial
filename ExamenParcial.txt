@@ -1,0 +1,94 @@
+A. Responder las siguientes preguntas
+
+1. ¿Cómo se define un lenguaje de programación?
+
+un lenguaje de programacion es un interpretepor el cual podemos dar 
+instrucciones al computador, este tiene reglas y sintaxis , 
+un lenguaje de programacion puede ser de nivel alto o bajo.
+
+
+2. ¿Qué es la sintaxis en un lenguaje de programación?
+
+son como las reglas de un lenguaje enque estructura se debe combinar
+
+3. Explica la diferencia entre sintaxis y semántica en los lenguajes de programación.
+
+sintaxis: forma y estructura
+semantica: significado de las instrucciones
+
+4. ¿Qué cambios trajo la evolución de la programación estructurada a la programación orientada a objetos?
+
+que el codigo sea entendible y legible
+
+5. ¿Cuáles son los pilares fundamentales de la Programación Orientada a Objetos (POO)?
+
+Encapsulamiento, herencia, polimorfismo y abstraccion
+
+
+6. ¿Qué son los modificadores de acceso y para qué se utilizan en una clase?
+
+son para controlar el acceso a las propiedades y metodos de una clase  y proteger la integridad de datos:
+public    : se puede acceder desde cualquier lugar
+private   : solo se puede acceder desde la misma clase
+protected : se puede acceder desde la misma clase y subclases
+
+7. ¿Qué es un constructor en una clase y cuál es su propósito?
+
+es un metodo por el cual se puede instanciar el objeto
+
+
+8. Definición de Clase y Objeto
+
+ clase  : abstraccion de un conjunto de objetos que comparten las mismas caracteristicas(atributos, funciones)
+ Objeto : es la instancia de una clase, este es unico
+
+9. ¿Que es UML?
+
+ es lenguaje de modelado unificado, el cual teiene los diagramas con los cuales
+ se puede representar la estructura y el comportamiento del sistema.
+
+10. ¿Que nos permite la modularidad?
+
+ dividir el programa en modulos independientes, esto nos permite reutilizar codigo, facilitar el mantenimiento y mejor colabortacion en el desarrollo
+
+
+B. Realizar el siguiente programa en Python o Java
+
+Enunciado: Sistema de Gestión de Vehículos
+
+Descripción:
+
+Modelar un sistema simple para gestionar diferentes tipos de vehículos en un concesionario.
+
+Requisitos:
+
+1. Clase base `Vehiculo`:
+   - Propiedades comunes a todos los vehículos:
+     - `Marca` (string)
+     - `Modelo` (string)
+     - `Año` (int)
+   
+2. Clase derivada `Auto`:
+   - Hereda de `Vehiculo`.
+   - Propiedades específicas:
+     - `NumeroPuertas` (int)
+     - `EsAutomatico` (bool)
+   
+3. Clase derivada `Moto`:
+   - Hereda de `Vehiculo`.
+   - Propiedades específicas:
+     - `Cilindraje` (int)
+     - `Tipo` (string) // Ejemplo: Scooter, Deportiva
+
+Funcionalidades:
+
+- Crear cuatro objetos de diferentes tipos (Autos y Motos).
+- Mostrar la información específica de cada objeto.
+
+Instrucciones:
+
+- Crear las clases mencionadas.
+- Implementar la función principal que cree una lista con varios autos y motos y muestre un reporte en consola.
+
+Entrega:
+El código fuente del proyecto deberá ser subido a un repositorio en GitHub. Incluir un archivo README.md con una breve descripción del proyecto y las instrucciones para ejecutarlo.
